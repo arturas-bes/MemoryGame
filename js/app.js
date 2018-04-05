@@ -168,7 +168,7 @@ function resetGame() {
 }
 // initiate game
 function startGame() {
-    // shuffle(symbolList);
+    shuffle(symbolList);
     let deck = $('.card .fa');
     for (let i = 0; i < symbolList.length; i++) {
         $(deck[i]).addClass(symbolList[i]);
